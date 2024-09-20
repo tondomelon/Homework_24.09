@@ -1,0 +1,182 @@
+body {
+    color: white;
+    width: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 0;
+}
+
+header {
+    background-color: #F7F8F8;
+    border-bottom: 1px solid;
+    border-color: #CBD1D5;
+}
+
+.logotype {
+    width: 173px;
+    height: auto;
+    margin-right: 408px;
+    display: block;
+}
+
+.list a {
+    text-decoration: none;
+    color: #1A1B27;
+    margin: 0;
+}
+
+.list {
+    font-family: "Merriweather";
+    font-size: 16px;
+    text-align: center;
+}
+
+.number_style a {
+    font-family: "Merriweather Sans";
+    font-size: 24px;
+    color: #FAAA00;
+    font-weight: 400;
+}
+
+.list_for_navigation {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.list:not(:last-child) {
+    margin-right: 24px;
+}
+
+
+/* Header End */
+
+/* Section_1  */
+.centre_things {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* это важно для вертикального размещения */
+}
+
+.main_title {
+    font-family: "Merriweather";
+    color: black;
+    font-size: 64px;
+    font-weight: 400;
+    margin: 0%;
+    text-align: center;
+    padding: 0 126px;
+    line-height: 90px;
+    padding-top: 40px;
+}
+
+.colour_fill {
+    color: #FAAA00;
+}
+
+.Order_delivery {
+    text-decoration: none;
+    text-align: center;
+    border-radius: 1000000px;
+    cursor: pointer;
+    background-color: #1A1B27;
+    color: white;
+    font-family: "Merriweather";
+    font-size: 16px;
+    font-weight: 100;
+    padding: 16px 32px;
+
+    border: none;
+    outline: none;
+
+    width: 220px;
+    height: auto;
+
+    margin-top: 30px;
+
+}
+
+.world_img {
+    width: 1147px;
+    height: auto;
+    margin-top: 38px;
+}
+/* Section_1 End */
+
+/* Section_2 */
+
+.section_2{
+    background-color: #F7F8F8;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: #CBD1D5;
+    margin: 0;
+}
+
+.important_terms {
+    max-width: 1160px;
+    font-family: "Merriweather";
+    font-size: 40px;
+    line-height: 48px;
+    color: #1A1B27;
+    font-weight: 200;
+    margin: 0;
+}
+
+.text_block {
+    color: #1A1B27;
+    font-family: "Merriweather";
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0;
+    max-width: 260px;
+
+}
+
+.p_important_terms {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.number {
+    color: #FAAA00;
+    font-size: 48px;
+    font-family: "Merriweather Sans";
+    font-weight: 200;
+    margin: 0;
+    display: block;
+    line-height: 58px;
+}
+
+.text_about_terms {
+    margin: 0px;
+    padding-top: 8px;
+}
+
+.p_important_terms:not(:last-child) {
+    margin-right: 40px;
+}
+
+/* Section_2 End */
