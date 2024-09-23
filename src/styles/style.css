@@ -6,6 +6,9 @@ body {
 
 * {
     box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -84,12 +87,13 @@ header {
     font-family: "Merriweather";
     color: black;
     font-size: 64px;
-    font-weight: 400;
+    font-weight: 300;
     margin: 0%;
     text-align: center;
-    padding: 0 126px;
     line-height: 90px;
     padding-top: 40px;
+
+    max-width: 1160px;
 }
 
 .colour_fill {
@@ -111,9 +115,6 @@ header {
     border: none;
     outline: none;
 
-    width: 220px;
-    height: auto;
-
     margin-top: 30px;
 
 }
@@ -123,60 +124,265 @@ header {
     height: auto;
     margin-top: 38px;
 }
+
 /* Section_1 End */
+
+
 
 /* Section_2 */
 
-.section_2{
+.section_2 {
     background-color: #F7F8F8;
     border-bottom: 1px solid;
     border-top: 1px solid;
     border-color: #CBD1D5;
-    margin: 0;
+
+    padding: 80px 0;
 }
 
-.important_terms {
-    max-width: 1160px;
+.title {
     font-family: "Merriweather";
     font-size: 40px;
-    line-height: 48px;
     color: #1A1B27;
-    font-weight: 200;
+    font-weight: 300;
     margin: 0;
-}
 
-.text_block {
-    color: #1A1B27;
-    font-family: "Merriweather";
-    font-size: 18px;
-    line-height: 23px;
-    margin: 0;
-    max-width: 260px;
-
-}
-
-.p_important_terms {
-    display: inline-block;
-    justify-content: space-between;
+    display: block;
 }
 
 .number {
-    color: #FAAA00;
-    font-size: 48px;
     font-family: "Merriweather Sans";
+    font-size: 48px;
+    color: #FAAA00;
     font-weight: 200;
-    margin: 0;
-    display: block;
+
     line-height: 58px;
+    margin: 0;
 }
 
-.text_about_terms {
-    margin: 0px;
+.text_about {
+    font-family: "Merriweather";
+    font-size: 18px;
+    color: #1A1B27;
+    line-height: 23px;
+
+    margin: 0;
     padding-top: 8px;
+    max-width: 260px;
 }
 
-.p_important_terms:not(:last-child) {
+.text_blocks_about_terms {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+}
+
+.text_block:not(:last-child) {
     margin-right: 40px;
 }
 
+.container_for_terms {
+    max-width: 1160px;
+
+    display: block;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Section_2 End */
+
+/* Section_3  */
+
+
+.img_logo_on_img_ship {
+    position: relative;
+
+    display: inline-block;
+}
+
+.services_img {
+    width: 460px;
+    height: auto;
+}
+
+.logotype_on_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 331px;
+}
+
+.arrow {
+    width: 16px;
+    height: auto;
+    display: block;
+
+    margin-right: 16px;
+}
+
+.text_about_services {
+    font-family: "Merriweather";
+    font-size: 18px;
+    color: #1A1B27;
+    line-height: 23px;
+
+    max-width: 586px;
+    margin: 0;
+}
+
+.service {
+    margin-bottom: 40px;
+
+}
+
+.service_block {
+    display: flex;
+    align-items: center;
+
+    border-bottom: 1px solid;
+    border-color: rgba(26, 27, 39, 0.2);
+
+    padding: 24px 16px;
+    max-width: 658px;
+
+
+}
+
+.Order_consultation {
+    text-decoration: none;
+    text-align: center;
+    border-radius: 1000000px;
+    cursor: pointer;
+    background-color: rgba(250, 170, 0, 1);
+    color: rgba(26, 27, 39, 1)e;
+    font-family: "Merriweather";
+    font-size: 16px;
+    font-weight: 100;
+    padding: 16px 77px;
+
+    border: none;
+    outline: none;
+
+    margin-top: 13px;
+
+}
+
+.consultation_block {
+    display: flex;
+    align-items: flex-end;
+}
+
+.services_text_blocks {
+    margin-left: 40px;
+}
+
+.section_3 {
+    max-width: 1160px;
+
+    display: block;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+    padding-bottom: 93px;
+}
+
+/* Section_3 End */
+
+/* Section_4 */
+
+.section_4 {
+    background-color: #F7F8F8;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: #CBD1D5;
+
+    padding: 70px 0px 100px 0px;
+   
+} 
+
+.button_pretender {
+    background-color: rgba(26, 27, 39, 1);
+    border-radius: 8px;
+    padding: 16px 0px;
+    width: 278px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.small_img {
+    width: 56px;
+    height: auto;
+}
+
+.small_text {
+    font-family: "Merriweather";
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-top: 12px;
+}
+
+.customer_choice {
+    display: flex;
+    justify-content: center;
+}
+
+.button_pretender:not(:last-child) {
+    margin-right: 16px;
+}
+
+.types_of_shipping {
+    margin-bottom: 50px;
+}
+
+/* Section_4 End */
+
+/* Section_5 */
+
+.KLOGISTIK_logo_yellow {
+    width: 383px;
+}
+.cargo_title {
+    max-width: 461px;
+    margin-right: 83px;
+}
+.text_special {
+    display: flex;
+    align-items: center;
+}
+.img_working_with {
+    width: 260px;
+    height: auto;
+}
+
+.first_line_cargo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 56px;
+}
+
+.cntnr {
+    padding-right: 40px;
+}
+
+.second_line_cargo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* Section_5 End */
